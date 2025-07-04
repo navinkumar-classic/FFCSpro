@@ -1,8 +1,34 @@
-# React + Vite
+# FFCS Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FFCS Pro** is a web application built to help VIT students efficiently plan and customize their timetables during course registration. It provides tools for automatic timetable generation, real-time query filtering, and attendance planning.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Automatic Timetable Generation based on user preferences
+- Advanced Query Search (by course, slot, faculty, etc.)
+- Attendance Planner and Tracker
+- Real FFCS Faculty Database Integration
+- Mobile-Responsive UI with smooth UX
+- Export Timetable as Image
+- Fast and lightweight frontend
+
+## Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Firebase (Firestore, Hosting)
+- **Other Tools:** CSV Parsing, URL Query Sync, VIT Slot Parser
+
+## Screenshots
+
+![c](https://github.com/user-attachments/assets/cfb47f85-5798-48c0-a276-991f6b89bb38)
+![b](https://github.com/user-attachments/assets/49a4dc67-47dc-47d3-98e7-f8b719739856)
+![a](https://github.com/user-attachments/assets/534b0314-c65c-47d5-b857-3bf401815dfc)
+
+## Getting Started
+
+To run the project locally:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/ffcspro.git
+   cd ffcspro
